@@ -42,7 +42,6 @@
 }
 .header__titles {
   background: #f2f2f2;
-  width: 100%;
 }
 .header__titles-inner {
   margin: 0 auto;
@@ -56,11 +55,7 @@
   font-weight: 700;
   margin-bottom: 20px;
 }
-.header__title p {
-  display: inline-block;
-}
-.header__title p:first-child::after {
-  content: "\00a0";
+.header__title {
 }
 .header__sub-title {
   color: #c0c0c0;
@@ -87,7 +82,7 @@
   padding-top: 50px;
   width: 1100px;
 }
-.main__iphone-img  {
+.main__iphone-img {
 }
 .main__iphone-titles {
   float: right;
@@ -250,10 +245,476 @@
 @media screen and (min-width:767px) and (max-width:1199px)
 {
 
+.bolt__body {
+  font-family: "Raleway";
+}
+
+/* header */
+.header {
+  width: 100%;
+}
+.header__contact {
+  background: #fff;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header__contact-inner {
+  margin: 0 auto;
+  width: 97%;
+}
+.header__contact-inner .fa-bolt {
+  color: #333;
+  font-size: 40px;
+}
+.header__contact-btn {
+  background: #74cfae;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  margin: auto;
+  padding: 14px 12px;
+  text-align: center;
+}
+.header__titles {
+  background: #f2f2f2;
+}
+.header__titles-inner {
+  margin: 0 auto;
+  padding: 250px 0;
+  text-align: center;
+  width: 97%;
+}
+.header__title {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.header__sub-title {
+  color: #c0c0c0;
+  font-size: 30px;
+}
+.header__sub-title p {
+  display: inline-block;
+}
+.header__sub-title p:first-child::after {
+  content: "\00a0";
+}
+
+/* main */
+.main {
+  width: 100%;
+}
+
+/* main_iphone */
+.main__iphone {
+  background: #74cfae;
+}
+.main__iphone-inner {
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  width: 97%;
+}
+.main__iphone-img {
+  display: block;
+  margin: 0 auto 20px;
+}
+.main__iphone-titles {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+}
+.main__iphone-titles__title {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.main__iphone-titles__text {
+  font-size: 20px;
+}
+
+
+/* main_works */
+.main__works {
+  background: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  width: 100%;
+}
+.main__works-inner {
+  margin: 0 auto;
+  width: 97%;
+}
+.main__works-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.main__works .flexbox {
+  display: flex;
+  flex-direction: column;
+}
+.main__works__imgs-top,
+.main__works__imgs-bottom {
+  margin: 0 auto 80px;
+  width: 300px;
+}
+.main__works-img {
+  cursor: pointer;
+  opacity: .7;
+  transition: .3s;
+}
+.main__works-img:hover {
+  opacity: 1;
+}
+.main__works__footer {
+  text-align: center; /* 子要素,孫要素,テキスト中央寄せ */
+}
+.main__works__footer-inner {
+  display: inline-block; /* text-alignを効かせるため */
+  width: 97%;
+}
+.main__works__footer-text {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.main__works__footer-btn {
+  background: #74cfae;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  padding: 14px 20px;
+  transition: .3s;
+}
+.main__works__footer-btn:hover {
+  color: #333;
+}
+
+/* main_skills */
+.main__skills {
+  background: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 12px;
+  width: 100%;
+}
+.main__skills-inner {
+  margin: 0 auto;
+  width: 97%;
+}
+.main__skills-title {
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main__skills__imgs figure {
+  margin-bottom: 88px;
+}
+.main__skills-imgcap {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+.main__skills__imgs {
+  margin: 0 auto;
+  text-align: center;
+}
+.main__skills .flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+}
+.footer__sns {
+  background: #f2f2f2;
+}
+.footer__sns-inner {
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 97%;
+}
+.footer__sns-icons .flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__sns-icon {
+  color: #74cfae;
+  cursor: pointer;
+  font-size: 40px;
+  padding: 30px 0;
+  text-align: center;
+  transition: .3s;
+  width: 185px;
+}
+.footer__sns-icon:hover {
+  background: #fff;
+}
+.footer__bottom{
+  background: #74cfae;
+}
+.footer__bottom-inner {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 97%;
+}
+.footer__bottom-text {
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  text-align: center;
+  transition: .3s;
+}
+
 }
 
 
 @media screen and (max-width:766px)
 {
+.bolt__body {
+  font-family: "Raleway";
+}
 
+/* header */
+.header {
+  width: 100%;
+}
+.header__contact {
+  background: #fff;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header__contact-inner {
+  margin: 0 auto;
+  width: 97%;
+}
+.header__contact-inner .fa-bolt {
+  color: #333;
+  font-size: 40px;
+}
+.header__contact-btn {
+  background: #74cfae;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  margin: auto;
+  padding: 14px 12px;
+  text-align: center;
+}
+.header__titles {
+  background: #f2f2f2;
+}
+.header__titles-inner {
+  margin: 0 auto;
+  padding: 160px 0 130px;
+  text-align: center;
+  width: 97%;
+}
+.header__title {
+  color: #74cfae;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.header__sub-title {
+  color: #c0c0c0;
+  font-size: 30px;
+}
+
+/* main */
+.main {
+  width: 100%;
+}
+
+/* main_iphone */
+.main__iphone {
+  background: #74cfae;
+}
+.main__iphone-inner {
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  width: 97%;
+}
+.main__iphone-img {
+  display: block;
+  margin: 0 auto 20px;
+}
+.main__iphone-titles {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.main__iphone-titles__title {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.main__iphone-titles__text {
+  font-size: 20px;
+}
+
+
+/* main_works */
+.main__works {
+  background: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  width: 100%;
+}
+.main__works-inner {
+  margin: 0 auto;
+  width: 97%;
+}
+.main__works-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.main__works .flexbox {
+  display: flex;
+  flex-direction: column;
+}
+.main__works__imgs-top,
+.main__works__imgs-bottom {
+  margin: 0 auto 80px;
+  width: 300px;
+}
+.main__works-img {
+  cursor: pointer;
+  opacity: .7;
+  transition: .3s;
+}
+.main__works-img:hover {
+  opacity: 1;
+}
+.main__works__footer {
+  text-align: center; /* 子要素,孫要素,テキスト中央寄せ */
+}
+.main__works__footer-inner {
+  display: inline-block; /* text-alignを効かせるため */
+  width: 97%;
+}
+.main__works__footer-text {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.main__works__footer-btn {
+  background: #74cfae;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  padding: 14px 20px;
+  transition: .3s;
+}
+.main__works__footer-btn:hover {
+  color: #333;
+}
+
+/* main_skills */
+.main__skills {
+  background: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 12px;
+  width: 100%;
+}
+.main__skills-inner {
+  margin: 0 auto;
+  width: 97%;
+}
+.main__skills-title {
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main__skills__imgs figure {
+  margin-bottom: 88px;
+}
+.main__skills-imgcap {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+.main__skills__imgs {
+  margin: 0 auto;
+  text-align: center;
+}
+.main__skills .flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+}
+.footer__sns {
+  background: #f2f2f2;
+}
+.footer__sns-inner {
+  margin: 0 auto;
+  width: 97%;
+}
+.footer__sns-icons .flexbox {
+  display: flex;
+  flex-direction: column;
+}
+.footer__sns-icons {
+  padding: 50px 15px;
+  text-align: center;
+}
+.footer__sns-icon {
+  color: #74cfae;
+  cursor: pointer;
+  font-size: 40px;
+  padding: 30px 0;
+  text-align: center;
+  transition: .3s;
+  width: 100%;
+}
+.footer__sns-icon:hover {
+  background: #fff;
+}
+.footer__bottom{
+  background: #74cfae;
+}
+.footer__bottom-inner {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 97%;
+}
+.footer__bottom-text {
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  text-align: center;
+  transition: .3s;
+}
+  
 }
