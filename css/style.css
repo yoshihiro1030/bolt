@@ -1,0 +1,479 @@
+@media screen and (min-width:1200px)
+{
+
+.bolt__body {
+  font-family: "Raleway";
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* header */
+.header {
+  width: 100%;
+}
+.header__contact {
+  background: #fff;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header__contact-inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+.header__contact-inner .fa-bolt {
+  color: #333;
+  font-size: 40px;
+}
+.header__contact-btn {
+  background: #74cfae;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  margin: auto;
+  padding: 14px 12px;
+  text-align: center;
+}
+.header__titles {
+  background: #f2f2f2;
+  width: 100%;
+}
+.header__titles-inner {
+  margin: 0 auto;
+  padding: 250px 0;
+  text-align: center;
+  width: 1100px;
+}
+.header__title {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.header__sub-title {
+  color: #c0c0c0;
+  font-size: 30px;
+}
+
+/* main */
+.main {
+  width: 100%;
+}
+
+/* main_iphone */
+.main__iphone {
+  background: #74cfae;
+}
+.main__iphone-inner {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1100px;
+}
+.main__iphone-img  {
+}
+.main__iphone-titles {
+  float: right;
+  text-align: center;
+  width: 750px;
+}
+.main__iphone-titles__title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.main__iphone-titles__text {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* main_works */
+.main__works {
+  background: #f2f2f2;
+  padding-bottom: 70px;
+}
+.main__works-inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+.main__works-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  text-align: center;
+}
+.main__works .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+.main__works-img {
+  cursor: pointer;
+  opacity: .7;
+  transition: .3s;
+}
+.main__works-img:hover {
+  opacity: 1;
+}
+.main__works__imgs-top {
+  margin-bottom: 80px;
+}
+.main__works__imgs-bottom {
+  margin-bottom: 90px;
+}
+.main__works__footer {
+  text-align: center; /* footer-innerを中央寄せ */
+}
+.main__works__footer-inner {
+  display: inline-block; /* text-alignを効かせるため */
+}
+.main__works__footer-text {
+  color: #333;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  width: 700px;
+}
+.main__works__footer-btn {
+  background: #74cfae;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  margin-left: 90px;
+  padding: 14px 20px;
+  transition: .3s;
+}
+.main__works__footer-btn:hover {
+  color: #333;
+}
+
+/* main_skills */
+.main__skills {
+  background: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.main__skills-inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+.main__skills-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.main__skills-imgcap {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+.main__skills__imgs {
+  margin: 0 auto;
+  width: 1028px;
+}
+.main__skills .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+.footer {
+}
+.footer__sns {
+  background: #f2f2f2;
+  width: 100%;
+}
+.footer__sns-inner {
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 1100px;
+}
+.footer__sns-icons .flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__sns-icon {
+  color: #74cfae;
+  cursor: pointer;
+  font-size: 40px;
+  padding: 30px 0;
+  text-align: center;
+  transition: .3s;
+  width: 185px;
+}
+.footer__sns-icon:hover {
+  background: #fff;
+}
+.footer__bottom{
+  background: #74cfae;
+  width: 100%;
+}
+.footer__bottom-inner {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 1100px;
+}
+.footer__bottom-text {
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  text-align: center;
+  transition: .3s;
+}
+}
+
+
+@media screen and (min-width:767px) and (max-width:1199px)
+{
+
+.bolt__body {
+  font-family: "Raleway";
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* header */
+.header {
+  width: 100%;
+}
+.header__contact {
+  background: #fff;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header__contact-inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+.header__contact-inner .fa-bolt {
+  color: #333;
+  font-size: 40px;
+}
+.header__contact-btn {
+  background: #74cfae;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  margin: auto;
+  padding: 14px 12px;
+  text-align: center;
+}
+.header__titles {
+  background: #f2f2f2;
+  width: 100%;
+}
+.header__titles-inner {
+  margin: 0 auto;
+  padding: 250px 0;
+  text-align: center;
+  width: 1100px;
+}
+.header__title {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.header__sub-title {
+  color: #c0c0c0;
+  font-size: 30px;
+}
+
+
+/* main */
+.main {
+  width: 100%;
+}
+
+/* main_iphone */
+.main__iphone {
+  background: #74cfae;
+}
+.main__iphone-inner {
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 1100px;
+}
+.main__iphone-img  {
+}
+.main__iphone-titles {
+  float: right;
+  text-align: center;
+  width: 750px;
+}
+.main__iphone-titles__title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.main__iphone-titles__text {
+  color: #fff;
+  font-size: 20px;
+}
+
+
+/* main_works */
+.main__works {
+  background: #f2f2f2;
+  padding-bottom: 70px;
+}
+.main__works-inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+.main__works-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  text-align: center;
+}
+.main__works .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+.main__works-img {
+  cursor: pointer;
+  opacity: .7;
+  transition: .3s;
+}
+.main__works-img:hover {
+  opacity: 1;
+}
+.main__works__imgs-top {
+  margin-bottom: 80px;
+}
+.main__works__imgs-bottom {
+  margin-bottom: 90px;
+}
+.main__works__footer {
+  text-align: center; /* footer-innerを中央寄せ */
+}
+.main__works__footer-inner {
+  display: inline-block; /* text-alignを効かせるため */
+}
+.main__works__footer-text {
+  color: #333;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  width: 700px;
+}
+.main__works__footer-btn {
+  background: #74cfae;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  margin-left: 90px;
+  padding: 14px 20px;
+  transition: .3s;
+}
+.main__works__footer-btn:hover {
+  color: #333;
+}
+
+/* main_skills */
+.main__skills {
+  background: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.main__skills-inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+.main__skills-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.main__skills-imgcap {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+.main__skills__imgs {
+  margin: 0 auto;
+  width: 1028px;
+}
+.main__skills .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+.footer {
+}
+.footer__sns {
+  background: #f2f2f2;
+  width: 100%;
+}
+.footer__sns-inner {
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 1100px;
+}
+.footer__sns-icons .flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__sns-icon {
+  color: #74cfae;
+  cursor: pointer;
+  font-size: 40px;
+  padding: 30px 0;
+  text-align: center;
+  transition: .3s;
+  width: 185px;
+}
+.footer__sns-icon:hover {
+  background: #fff;
+}
+.footer__bottom{
+  background: #74cfae;
+  width: 100%;
+}
+.footer__bottom-inner {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 1100px;
+}
+.footer__bottom-text {
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  text-align: center;
+  transition: .3s;
+}
+}
+
+
+@media screen and (max-width:766px) {
+
+}
