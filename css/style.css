@@ -7,12 +7,14 @@ img {
 }
 
 /* header */
-.header__contact {
-  background: #fff;
+.header {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
+}
+.header__contact {
+  background: #fff;
 }
 
 /* main */
@@ -87,10 +89,8 @@ img {
   .header__contact-btn:hover {
     color: #333;
   }
-  .header__contact-menuIcon-forSP {
-    display: none;
-  }
-  .header__contact-area-forSP {
+  .menu-btn-forSP,
+  .menu__wrapper-forSP {
     display: none;
   }
 
@@ -293,12 +293,11 @@ img {
   .header__contact-btn:hover {
     color: #333;
   }
-  .header__contact-menuIcon-forSP {
+  .menu-btn-forSP,
+  .menu__wrapper-forSP {
     display: none;
   }
-  .header__contact-area-forSP {
-    display: none;
-  }
+
 
   /* main */
   .main {
@@ -489,6 +488,8 @@ img {
   }
 
   /* header */
+  .header__contact {
+  }
   .header__contact-inner {
     padding: 15px 0;
   }
@@ -498,6 +499,43 @@ img {
   }
   .header__contact-btn {
     display: none;
+  }
+  .menu-btn-forSP {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    padding: 10px;
+    width: 25px;
+  }
+  .bars {
+    background: #ddd;
+    height: 3px;
+  }
+  .bars + .bars {
+    margin-top: 5px;
+  }
+  .menu__wrapper-forSP {
+    display: none;
+    background: #fff;
+    height: 60px;
+    margin-top: 3px;
+    padding-top: 5px;
+  }
+  .menu__wrapper-forSP.open {
+    display: block;
+  }
+  .menu__inner {
+    background: #74cfae;
+    padding: 15px;
+  }
+  .menu__inner a {
+    color: #fff;
+    font-size: 14px;
+    height: 70px;
+    text-align: left;
+    text-decoration: none;
   }
 
 
