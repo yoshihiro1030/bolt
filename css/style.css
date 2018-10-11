@@ -357,6 +357,7 @@ img {
   .main__works-inner {
     padding-top: 60px;
     padding-bottom: 70px;
+    text-align: center;
   }
   .main__works-title {
     color: #333;
@@ -365,24 +366,19 @@ img {
     text-align: center;
   }
   .main__works__imgs {
+    display: inline-block;
     margin: 0 auto 80px;
     text-align: center; /* 画像の左右中央寄せ */
-  }
-  .main__works-inner .flexbox:nth-of-type(1) {
-    display: flex;
-    flex-direction: column;
   }
   .main__works__imgs a:nth-child(3n+4){
     margin-top: 80px;
   }
   .main__works__imgs a {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     opacity: .7;
     transition: .3s;
     text-decoration: none;
-    width: 300px;
-    height: 300px;
   }
   .main__works__imgs a:hover{
     opacity: 1;
@@ -587,6 +583,7 @@ img {
   .main__works-inner {
     padding-top: 60px;
     padding-bottom: 70px;
+    text-align: center;
   }
   .main__works-title {
     color: #333;
@@ -595,24 +592,18 @@ img {
     text-align: center;
   }
   .main__works__imgs {
+    display: inline-block;
     margin: 0 auto 80px;
     text-align: center; /* 画像の左右中央寄せ */
-  }
-  .main__works-inner .flexbox:nth-of-type(1) {
-    display: flex;
-    flex-direction: column;
   }
   .main__works__imgs a:nth-child(3n+4){
     margin-top: 80px;
   }
   .main__works__imgs a {
-    display: inline-block;
-    margin: 0 auto;
+    display: block;
     opacity: .7;
     transition: .3s;
     text-decoration: none;
-    width: 300px;
-    height: 300px;
   }
   .main__works__imgs a:hover{
     opacity: 1;
