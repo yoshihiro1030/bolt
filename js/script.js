@@ -3,18 +3,18 @@
 
   let menu = document.getElementById('js_menu');
   let menuBtn = document.getElementById('js_menuBtn');
-  let state = false;
+  let state = close;
 
   function btn() {
-    if (state === false) {
+    if (state === close) {
       menu.classList.remove('close');
       menu.classList.add('open');
-      state = true;
+      state = open;
     }
-    else if (state === true) {
+    else if (state === open) {
       menu.classList.remove('open');
       menu.classList.add('close');
-      state = false;
+      state = close;
     }
   };
 

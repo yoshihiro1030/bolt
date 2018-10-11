@@ -1,6 +1,7 @@
 /* for all devices */
 body {
   font-family: "Raleway";
+  user-select: none;
 }
 img {
   vertical-align: bottom;
@@ -8,6 +9,7 @@ img {
 
 /* header */
 .header {
+  opacity: .95;
   position: fixed;
   top: 0;
   width: 100%;
@@ -488,8 +490,6 @@ img {
   }
 
   /* header */
-  .header__contact {
-  }
   .header__contact-inner {
     padding: 15px 0;
   }
@@ -516,17 +516,11 @@ img {
   .bars + .bars {
     margin-top: 5px;
   }
-  .menu__wrapper-forSP {
+  .menu__inner.close {
     display: none;
-    background: #fff;
-    height: 60px;
-    margin-top: 3px;
-    padding-top: 5px;
   }
-  .menu__wrapper-forSP.open {
+  .menu__inner.open {
     display: block;
-  }
-  .menu__inner {
     background: #74cfae;
     padding: 15px;
   }
